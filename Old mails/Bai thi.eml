@@ -1,0 +1,289 @@
+Delivered-To: nhatminh2106@gmail.com
+Received: by 10.107.172.199 with SMTP id v190csp1613915ioe;
+        Tue, 10 Jan 2017 20:08:27 -0800 (PST)
+X-Received: by 10.176.4.196 with SMTP id 62mr2957427uaw.172.1484107707104;
+        Tue, 10 Jan 2017 20:08:27 -0800 (PST)
+Return-Path: <baomat.nhatminh2106@gmail.com>
+Received: from mail-ua0-x231.google.com (mail-ua0-x231.google.com. [2607:f8b0:400c:c08::231])
+        by mx.google.com with ESMTPS id w189si11254vkg.66.2017.01.10.20.08.27
+        for <nhatminh2106@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 10 Jan 2017 20:08:27 -0800 (PST)
+Received-SPF: pass (google.com: domain of baomat.nhatminh2106@gmail.com designates 2607:f8b0:400c:c08::231 as permitted sender) client-ip=2607:f8b0:400c:c08::231;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com;
+       spf=pass (google.com: domain of baomat.nhatminh2106@gmail.com designates 2607:f8b0:400c:c08::231 as permitted sender) smtp.mailfrom=baomat.nhatminh2106@gmail.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ua0-x231.google.com with SMTP id 96so50752688uaq.3
+        for <nhatminh2106@gmail.com>; Tue, 10 Jan 2017 20:08:27 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=c0YtYd1bbjv73QcFhOsN1d/LhNVgU/1LXJHStcuWPWo=;
+        b=ux2z7bQ7HTwNbH228nBiOYGL1DcGyvkwB7+UshxGBiNVGBT65n4s68zKjB9fCI8icy
+         Z7XsU+eXCEZKl51ajiVTS2pgBs5aZHCJ0NNHe3iDI2FCXhol3MtAKWosTihG2zukL7HI
+         39Uoxh2hguFbRw7Co4pZ53oMjVPJRt7RuM6tbrEaKZvz3dMC+fktTqsYcWXAdAyq2+OS
+         jwhk148kfs1tXqvfh118wMNPIU1N+vzgNE+ClOjkCZgjlLktbGe4/ZCxNxzMnCk/Y5qY
+         /XIMJasCo26KxOrTz0jOpdjrxi1vyQdGuLWppag3BzYhHZLMDqY+/kATRUTbBE0uTgdO
+         yt9w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=c0YtYd1bbjv73QcFhOsN1d/LhNVgU/1LXJHStcuWPWo=;
+        b=NPUxRsNF6P9fJmpUKXhbS5NjHYgnUXMtUKyvVjUr8mS6A3EaLaXN+JAelPI6EYuhxf
+         5shJE0LQuA/KokTXbb/Tx5uVbobi1mI12zxiD9/TbxVfFAHwncTwhnCMrlyoZ6GtwVy7
+         4AwiwFH8zKwNc7s7bqXaPgN6QBfjkswv+2/JBVOFCmCqzLB8na/joJ1pbsYDU2lC3NwI
+         BUYHYqWWWiSc4UBOCf4dnFkoUFF43HtkFoA5woILXefC0JP35yfkeHDqe2m4poiwyTpF
+         RTLZeSKBSQsND5aR3qvHo2cv25ZfEVjBRbpazSZTce4NFs+ombg7aIbnd/q4kXthQuse
+         CHAA==
+X-Gm-Message-State: AIkVDXIZrbL3VGoMAEmyw8kpRf7SU/n4ONewHviB6qIyPh9EpKYV1ydBskJXgELr7jdVRyz/X38f9hM1EUja3Q==
+X-Received: by 10.159.33.170 with SMTP id 39mr3670761uac.110.1484107706622;
+ Tue, 10 Jan 2017 20:08:26 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.103.14.69 with HTTP; Tue, 10 Jan 2017 20:08:25 -0800 (PST)
+In-Reply-To: <CAJm3c+FsJD-VM8vfdUwb+K4Q-b43U9e_GEEapkCQeXwxWOWjZA@mail.gmail.com>
+References: <CAJm3c+FsJD-VM8vfdUwb+K4Q-b43U9e_GEEapkCQeXwxWOWjZA@mail.gmail.com>
+From: =?UTF-8?B?Tmjhuq10IE1pbmggQuG6o28gbeG6rXQ=?= <baomat.nhatminh2106@gmail.com>
+Date: Wed, 11 Jan 2017 11:08:25 +0700
+Message-ID: <CAJm3c+EyHF7iipn-zJ3RL8LRdtzBTAPc8jbY2tbcjneRTifpcw@mail.gmail.com>
+Subject: Re: Bai thi
+To: =?UTF-8?B?Tmjhuq10IE1pbmggSG/DoG5nIFRy4bqnbg==?= <nhatminh2106@gmail.com>
+Content-Type: multipart/mixed; boundary=001a1140a222a9a1a30545c9c0b3
+
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: multipart/alternative; boundary=001a1140a222a9a19e0545c9c0b1
+
+--001a1140a222a9a19e0545c9c0b1
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+2017-01-11 11:07 GMT+07:00 Nh=E1=BA=ADt Minh B=E1=BA=A3o m=E1=BA=ADt <baoma=
+t.nhatminh2106@gmail.com>
+:
+
+> =E2=80=8B
+>  363
+> <https://docs.google.com/folderview?id=3D0B9iwNJIfzaW-VlFEVHMxSHF2LWc&usp=
+=3Ddrive_web>
+> =E2=80=8B
+>
+
+--001a1140a222a9a19e0545c9c0b1
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br></div><div class=3D"gmail_extra"><br><div class=3D"gma=
+il_quote">2017-01-11 11:07 GMT+07:00 Nh=E1=BA=ADt Minh B=E1=BA=A3o m=E1=BA=
+=ADt <span dir=3D"ltr">&lt;<a href=3D"mailto:baomat.nhatminh2106@gmail.com"=
+ target=3D"_blank">baomat.nhatminh2106@gmail.com</a>&gt;</span>:<br><blockq=
+uote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc =
+solid;padding-left:1ex"><div dir=3D"ltr">=E2=80=8B<br><div class=3D"gmail_c=
+hip gmail_drive_chip" style=3D"width:396px;height:18px;max-height:18px;back=
+ground-color:#f5f5f5;padding:5px;color:#222;font-family:arial;font-style:no=
+rmal;font-weight:bold;font-size:13px;border:1px solid #ddd;line-height:1"><=
+a href=3D"https://docs.google.com/folderview?id=3D0B9iwNJIfzaW-VlFEVHMxSHF2=
+LWc&amp;usp=3Ddrive_web" style=3D"display:inline-block;overflow:hidden;text=
+-overflow:ellipsis;white-space:nowrap;text-decoration:none;padding:1px 0px;=
+border:none;width:100%" target=3D"_blank"><img style=3D"vertical-align:bott=
+om;border:none" src=3D"https://ssl.gstatic.com/docs/doclist/images/icon_11_=
+collection_list_1.png">=C2=A0<span dir=3D"ltr" style=3D"color:#15c;text-dec=
+oration:none;vertical-align:bottom">363</span></a></div>=E2=80=8B<br></div>
+</blockquote></div><br></div>
+
+--001a1140a222a9a19e0545c9c0b1--
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: application/octet-stream; name="CAU3.OUT"
+Content-Disposition: attachment; filename="CAU3.OUT"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfekda0
+
+VHJhbiBRdXluaCBBbmggDQo=
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: application/octet-stream; name="CAU3.BAK"
+Content-Disposition: attachment; filename="CAU3.BAK"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfeke01
+
+dXNlcyBjcnQ7DQp2YXIgaXAsb3A6dGV4dDsNCiAgICBzOnN0cmluZzsNCiAgICBpOmludGVnZXI7
+DQpiZWdpbg0KICAgICBjbHJzY3I7DQogICAgIGFzc2lnbihpcCwnZDpcMzYzXENBVTMuaW5wJyk7
+IHJlc2V0KGlwKTsNCiAgICAgYXNzaWduKG9wLCdkOlwzNjNcQ0FVMy5vdXQnKTsgcmV3cml0ZShv
+cCk7DQoNCiAgICAgcmVhZGxuKGlwLHMpOw0KICAgICB3aGlsZSBzWzFdPScgJyBkbyBkZWxldGUo
+cywxLDEpOw0KICAgICBzWzFdOj11cGNhc2Uoc1sxXSk7DQoNCiAgICAgd2hpbGUgc1twb3MoJyAg
+JyxzKV09JyAnIGRvIGRlbGV0ZShzLHBvcygnICAnLHMpLDEpOw0KDQogICAgIGZvciBpOj0xIHRv
+IGxlbmd0aChzKSBkbyBpZiBzW2ldPScgJyB0aGVuIHNbaSsxXTo9dXBjYXNlKHNbaSsxXSk7DQoN
+CiAgICAgd3JpdGVsbihvcCxzKTsNCg0KICAgICBjbG9zZShpcCk7IGNsb3NlKG9wKTsNCmVuZC4=
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: application/octet-stream; name="CAU2.BAK"
+Content-Disposition: attachment; filename="CAU2.BAK"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfekea2
+
+dXNlcyBjcnQ7DQp2YXIgaXAsb3A6dGV4dDsNCiAgICBuLGNvZGU6aW50ZWdlcjsNCiAgICBpLGIs
+c286bG9uZ2ludDsNCiAgICBhOmJvb2xlYW47DQogICAgYjEsaTE6c3RyaW5nOw0KDQpmdW5jdGlv
+biBuZ3RvKG46bG9uZ2ludCk6Ym9vbGVhbjsNCnZhciBpLGQ6bG9uZ2ludDsNCmJlZ2luIGQ6PTA7
+DQogICAgICBmb3IgaTo9MSB0byBuIGRvIGlmIG4gbW9kIGk9MCB0aGVuIGQ6PWQrMTsNCiAgICAg
+IGlmIGQ9MiB0aGVuIG5ndG86PXRydWUgZWxzZSBuZ3RvOj1mYWxzZTsNCmVuZDsNCg0KYmVnaW4N
+CiAgICAgY2xyc2NyOw0KICAgICBhc3NpZ24oaXAsJ2Q6XDM2M1xDQVUyLklOUCcpOyByZXNldChp
+cCk7DQogICAgIGFzc2lnbihvcCwnZDpcMzYzXENBVTIuT1VUJyk7IHJld3JpdGUob3ApOw0KDQog
+ICAgIHJlYWRsbihpcCxuKTsNCg0KICAgICBpOj0yOyBhOj10cnVlOw0KICAgICB3aGlsZSBuPD4w
+IGRvDQogICAgIGJlZ2luDQogICAgICAgICAgaWYgbmd0byhpKSB0aGVuDQogICAgICAgICAgYmVn
+aW4NCiAgICAgICAgICAgICAgIGlmIGE9dHJ1ZSB0aGVuIGI6PWkgZWxzZQ0KICAgICAgICAgICAg
+ICAgYmVnaW4NCiAgICAgICAgICAgICAgICAgICAgc3RyKGIsYjEpOyBzdHIoaSxpMSk7DQogICAg
+ICAgICAgICAgICAgICAgIHZhbChiMStpMSxzbyxjb2RlKTsNCiAgICAgICAgICAgICAgICAgICAg
+aWYgbmd0byhzbykgdGhlbiBuOj1uLTE7DQogICAgICAgICAgICAgICBlbmQ7DQogICAgICAgICAg
+ICAgICBpZiBhPXRydWUgdGhlbiBhOj1mYWxzZSBlbHNlIGE6PXRydWU7DQogICAgICAgICAgZW5k
+Ow0KICAgICAgICAgIGk6PWkrMTsNCiAgICAgZW5kOw0KDQogICAgIHdyaXRlbG4ob3Asc28pOw0K
+ICAgICBjbG9zZShpcCk7IGNsb3NlKG9wKTsNCmVuZC4=
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: text/x-pascal; charset=US-ASCII; name="CAU1.PAS"
+Content-Disposition: attachment; filename="CAU1.PAS"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfekeh3
+
+dXNlcyBjcnQ7DQp2YXIgbixpLGEsYixiZGVtLGM6bG9uZ2ludDsNCg0KZnVuY3Rpb24gbmd0byhu
+OmxvbmdpbnQpOmJvb2xlYW47DQp2YXIgaSxkOmxvbmdpbnQ7DQpiZWdpbiBkOj0wOw0KICAgICAg
+Zm9yIGk6PTEgdG8gbiBkbyBpZiBuIG1vZCBpPTAgdGhlbiBkOj1kKzE7DQogICAgICBpZiBkPTIg
+dGhlbiBuZ3RvOj10cnVlIGVsc2Ugbmd0bzo9ZmFsc2U7DQplbmQ7DQoNCmJlZ2luDQogICAgIGNs
+cnNjcjsNCg0KICAgICB3cml0ZSgnTj0nKTsgcmVhZGxuKG4pOw0KICAgICBhOj0wOyBiOj0wOyBi
+ZGVtOj0wOyBjOj0wOw0KDQogICAgIGZvciBpOj0xIHRvIG4gZG8NCiAgICAgYmVnaW4NCiAgICAg
+ICAgICBhOj1hK2k7DQogICAgICAgICAgaWYgbmd0byhpKSB0aGVuDQogICAgICAgICAgYmVnaW4N
+CiAgICAgICAgICAgICAgIGI6PWIraTsNCiAgICAgICAgICAgICAgIGJkZW06PWJkZW0rMTsNCiAg
+ICAgICAgICBlbmQ7DQogICAgIGVuZDsNCg0KICAgICB3cml0ZWxuKGEpOw0KDQogICAgIGlmIHNx
+cihyb3VuZChzcXJ0KG4pKSk9biB0aGVuIHdyaXRlbG4oJ1lFUycpDQogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICBlbHNlIHdyaXRlbG4oJ05PJyk7DQogICAgIHdyaXRlbG4oYi9iZGVtOjA6
+Mik7DQoNCiAgICAgd2hpbGUgbjw+MCBkbw0KICAgICBiZWdpbg0KICAgICAgICAgIGM6PWMrKG4g
+bW9kIDEwKTsNCiAgICAgICAgICBuOj1uIGRpdiAxMDsNCiAgICAgZW5kOw0KDQogICAgIHdyaXRl
+bG4oYyk7DQoNCiAgICAgcmVhZGxuDQplbmQu
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: text/x-pascal; charset=US-ASCII; name="CAU2.PAS"
+Content-Disposition: attachment; filename="CAU2.PAS"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfekeo4
+
+dXNlcyBjcnQ7DQp2YXIgaXAsb3A6dGV4dDsNCiAgICBuLGNvZGU6aW50ZWdlcjsNCiAgICBpLGIs
+c286bG9uZ2ludDsNCiAgICBhOmJvb2xlYW47DQogICAgYjEsaTE6c3RyaW5nOw0KDQpmdW5jdGlv
+biBuZ3RvKG46bG9uZ2ludCk6Ym9vbGVhbjsNCnZhciBpLGQ6bG9uZ2ludDsNCmJlZ2luIGQ6PTA7
+DQogICAgICBmb3IgaTo9MSB0byBuIGRvIGlmIG4gbW9kIGk9MCB0aGVuIGQ6PWQrMTsNCiAgICAg
+IGlmIGQ9MiB0aGVuIG5ndG86PXRydWUgZWxzZSBuZ3RvOj1mYWxzZTsNCmVuZDsNCg0KYmVnaW4N
+CiAgICAgY2xyc2NyOw0KICAgICBhc3NpZ24oaXAsJ2Q6XDM2M1xDQVUyLklOUCcpOyByZXNldChp
+cCk7DQogICAgIGFzc2lnbihvcCwnZDpcMzYzXENBVTIuT1VUJyk7IHJld3JpdGUob3ApOw0KDQog
+ICAgIHJlYWRsbihpcCxuKTsNCg0KICAgICBpOj0yOyBhOj10cnVlOw0KICAgICB3aGlsZSBuPD4w
+IGRvDQogICAgIGJlZ2luDQogICAgICAgICAgaWYgbmd0byhpKSB0aGVuDQogICAgICAgICAgYmVn
+aW4NCiAgICAgICAgICAgICAgIGlmIGE9dHJ1ZSB0aGVuIGI6PWkgZWxzZQ0KICAgICAgICAgICAg
+ICAgYmVnaW4NCiAgICAgICAgICAgICAgICAgICAgc3RyKGIsYjEpOyBzdHIoaSxpMSk7DQogICAg
+ICAgICAgICAgICAgICAgIHZhbChiMStpMSxzbyxjb2RlKTsNCiAgICAgICAgICAgICAgICAgICAg
+aWYgbmd0byhzbykgdGhlbiBuOj1uLTE7DQogICAgICAgICAgICAgICBlbmQ7DQogICAgICAgICAg
+ICAgICBpZiBhPXRydWUgdGhlbiBhOj1mYWxzZSBlbHNlIGE6PXRydWU7DQogICAgICAgICAgZW5k
+Ow0KICAgICAgICAgIGk6PWkrMTsNCiAgICAgZW5kOw0KDQogICAgIHdyaXRlbG4ob3Asc28pOw0K
+ICAgICBjbG9zZShpcCk7IGNsb3NlKG9wKTsNCmVuZC4=
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: application/octet-stream; name="CAU2.OUT"
+Content-Disposition: attachment; filename="CAU2.OUT"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfekeu5
+
+MzEzNw0K
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: chemical/x-gamess-input; name="CAU2.INP"
+Content-Disposition: attachment; filename="CAU2.INP"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfekf06
+
+Mg==
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: application/octet-stream; name="CAU1.BAK"
+Content-Disposition: attachment; filename="CAU1.BAK"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfekfc7
+
+dXNlcyBjcnQ7DQp2YXIgbixpLGEsYixiZGVtLGM6bG9uZ2ludDsNCg0KZnVuY3Rpb24gbmd0byhu
+OmxvbmdpbnQpOmJvb2xlYW47DQp2YXIgaSxkOmxvbmdpbnQ7DQpiZWdpbiBkOj0wOw0KICAgICAg
+Zm9yIGk6PTEgdG8gbiBkbyBpZiBuIG1vZCBpPTAgdGhlbiBkOj1kKzE7DQogICAgICBpZiBkPTIg
+dGhlbiBuZ3RvOj10cnVlIGVsc2Ugbmd0bzo9ZmFsc2U7DQplbmQ7DQoNCmJlZ2luDQogICAgIGNs
+cnNjcjsNCg0KICAgICB3cml0ZSgnTj0nKTsgcmVhZGxuKG4pOw0KICAgICBhOj0wOyBiOj0wOyBi
+ZGVtOj0wOyBjOj0wOw0KDQogICAgIGZvciBpOj0xIHRvIG4gZG8NCiAgICAgYmVnaW4NCiAgICAg
+ICAgICBhOj1hK2k7DQogICAgICAgICAgaWYgbmd0byhpKSB0aGVuDQogICAgICAgICAgYmVnaW4N
+CiAgICAgICAgICAgICAgIGI6PWIraTsNCiAgICAgICAgICAgICAgIGJkZW06PWJkZW0rMTsNCiAg
+ICAgICAgICBlbmQ7DQogICAgIGVuZDsNCg0KICAgICB3cml0ZWxuKGEpOw0KDQogICAgIGlmIHNx
+cihyb3VuZChzcXJ0KG4pKSk9biB0aGVuIHdyaXRlbG4oJ1lFUycpDQogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICBlbHNlIHdyaXRlbG4oJ05PJyk7DQogICAgIHdyaXRlbG4oYi9iZGVtOjA6
+Mik7DQoNCiAgICAgd2hpbGUgbjw+MCBkbw0KICAgICBiZWdpbg0KICAgICAgICAgIGM6PWMrKG4g
+bW9kIDEwKTsNCiAgICAgICAgICBuOj1uIGRpdiAxMDsNCiAgICAgZW5kOw0KDQogICAgIHdyaXRl
+bG4oYyk7DQoNCiAgICAgcmVhZGxuDQplbmQu
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: text/x-pascal; charset=US-ASCII; name="CAU3.PAS"
+Content-Disposition: attachment; filename="CAU3.PAS"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfekfj8
+
+dXNlcyBjcnQ7DQp2YXIgaXAsb3A6dGV4dDsNCiAgICBzOnN0cmluZzsNCiAgICBpOmludGVnZXI7
+DQpiZWdpbg0KICAgICBjbHJzY3I7DQogICAgIGFzc2lnbihpcCwnZDpcMzYzXENBVTMuaW5wJyk7
+IHJlc2V0KGlwKTsNCiAgICAgYXNzaWduKG9wLCdkOlwzNjNcQ0FVMy5vdXQnKTsgcmV3cml0ZShv
+cCk7DQoNCiAgICAgcmVhZGxuKGlwLHMpOw0KICAgICB3aGlsZSBzWzFdPScgJyBkbyBkZWxldGUo
+cywxLDEpOw0KICAgICBzWzFdOj11cGNhc2Uoc1sxXSk7DQoNCiAgICAgd2hpbGUgc1twb3MoJyAg
+JyxzKV09JyAnIGRvIGRlbGV0ZShzLHBvcygnICAnLHMpLDEpOw0KDQogICAgIGZvciBpOj0xIHRv
+IGxlbmd0aChzKSBkbyBpZiBzW2ldPScgJyB0aGVuIHNbaSsxXTo9dXBjYXNlKHNbaSsxXSk7DQoN
+CiAgICAgd3JpdGVsbihvcCxzKTsNCg0KICAgICBjbG9zZShpcCk7IGNsb3NlKG9wKTsNCmVuZC4=
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: chemical/x-gamess-input; name="CAU3.INP"
+Content-Disposition: attachment; filename="CAU3.INP"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfekfr9
+
+ICAgIHRyYW4gICAgICBxdXluaCAgICAgICAgICBBbmggICAg
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: application/octet-stream; name="CAU4.OUT"
+Content-Disposition: attachment; filename="CAU4.OUT"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfekfz10
+
+NQ==
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: text/x-pascal; charset=US-ASCII; name="CAU4.PAS"
+Content-Disposition: attachment; filename="CAU4.PAS"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfekg711
+
+dXNlcyBjcnQ7DQp2YXIgbixtLHIsaSxqLGRlbTppbnRlZ2VyOw0KICAgIHRyYW06YXJyYXlbMS4u
+MTAwMF1vZiBpbnRlZ2VyOw0KICAgIGRpZW06YXJyYXlbMS4uMTAwMDBdb2YgYm9vbGVhbjsNCiAg
+ICBpcCxvcDp0ZXh0Ow0KYmVnaW4NCiAgICAgY2xyc2NyOw0KICAgICBhc3NpZ24oaXAsJ2Q6XDM2
+M1xDQVU0LmlucCcpOyByZXNldChpcCk7DQogICAgIGFzc2lnbihvcCwnZDpcMzYzXENBVTQub3V0
+Jyk7IHJld3JpdGUob3ApOw0KDQogICAgIHJlYWRsbihpcCxuKTsgcmVhZGxuKGlwLG0scik7DQog
+ICAgIGZvciBpOj0xIHRvIG0gZG8gcmVhZChpcCx0cmFtW2ldKTsNCg0KICAgICBmb3IgaTo9MSB0
+byBuIGRvIGRpZW1baV06PWZhbHNlOw0KDQogICAgIGZvciBpOj0xIHRvIG0gZG8NCiAgICAgICAg
+IGZvciBqOj10cmFtW2ldLXIgdG8gdHJhbVtpXStyLTEgZG8gZGllbVtqXTo9dHJ1ZTsNCg0KICAg
+ICBkZW06PTA7DQogICAgIGZvciBpOj0xIHRvIG4gZG8NCiAgICAgICAgIGlmIGRpZW1baV09ZmFs
+c2UgdGhlbg0KICAgICAgICAgYmVnaW4NCiAgICAgICAgICAgICAgZm9yIGo6PWkgdG8gaSsocioy
+KS0xIGRvIHtiZWdpbiB3cml0ZShqOjMpO30gZGllbVtqXTo9dHJ1ZTsNCiAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIHsgZW5kOyB9DQogICAgICAgICAgICAgIGRlbTo9ZGVtKzE7
+IHt3cml0ZWxuKCcgIGRlbT0nLGRlbSk7fQ0KICAgICAgICAgZW5kOw0KDQogICAgIHdyaXRlKG9w
+LGRlbSk7DQogICAgIHtyZWFkbG47fQ0KICAgICBjbG9zZShpcCk7IGNsb3NlKG9wKTsNCmVuZC4=
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: chemical/x-gamess-input; name="CAU4.INP"
+Content-Disposition: attachment; filename="CAU4.INP"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfekgg12
+
+MzANCjQgMg0KOCAxMiAxOCAyNg==
+--001a1140a222a9a1a30545c9c0b3
+Content-Type: application/octet-stream; name="CAU4.BAK"
+Content-Disposition: attachment; filename="CAU4.BAK"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixsfekgn13
+
+dXNlcyBjcnQ7DQp2YXIgbixtLHIsaSxqLGRlbTppbnRlZ2VyOw0KICAgIHRyYW06YXJyYXlbMS4u
+MTAwMF1vZiBpbnRlZ2VyOw0KICAgIGRpZW06YXJyYXlbMS4uMTAwMDBdb2YgYm9vbGVhbjsNCiAg
+ICBpcCxvcDp0ZXh0Ow0KYmVnaW4NCiAgICAgY2xyc2NyOw0KICAgICBhc3NpZ24oaXAsJ2Q6XDM2
+M1xDQVU0LmlucCcpOyByZXNldChpcCk7DQogICAgIGFzc2lnbihvcCwnZDpcMzYzXENBVTQub3V0
+Jyk7IHJld3JpdGUob3ApOw0KDQogICAgIHJlYWRsbihpcCxuKTsgcmVhZGxuKGlwLG0scik7DQog
+ICAgIGZvciBpOj0xIHRvIG0gZG8gcmVhZChpcCx0cmFtW2ldKTsNCg0KICAgICBmb3IgaTo9MSB0
+byBuIGRvIGRpZW1baV06PWZhbHNlOw0KDQogICAgIGZvciBpOj0xIHRvIG0gZG8NCiAgICAgICAg
+IGZvciBqOj10cmFtW2ldLXIgdG8gdHJhbVtpXStyLTEgZG8gZGllbVtqXTo9dHJ1ZTsNCg0KICAg
+ICBkZW06PTA7DQogICAgIGZvciBpOj0xIHRvIG4gZG8NCiAgICAgICAgIGlmIGRpZW1baV09ZmFs
+c2UgdGhlbg0KICAgICAgICAgYmVnaW4NCiAgICAgICAgICAgICAgZm9yIGo6PWkgdG8gaSsocioy
+KS0xIGRvIGJlZ2luIHdyaXRlKGo6Myk7IGRpZW1bal06PXRydWU7DQogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgZW5kOw0KICAgICAgICAgICAgICBkZW06PWRlbSsxOyB3cml0
+ZWxuKCcgIGRlbT0nLGRlbSk7DQogICAgICAgICBlbmQ7DQoNCiAgICAgd3JpdGUob3AsZGVtKTsN
+CiAgICAgcmVhZGxuOw0KICAgICBjbG9zZShpcCk7IGNsb3NlKG9wKTsNCmVuZC4=
+--001a1140a222a9a1a30545c9c0b3--

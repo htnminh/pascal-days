@@ -1,0 +1,80 @@
+Delivered-To: nhatminh2106@gmail.com
+Received: by 10.202.229.5 with SMTP id c5csp294598oih;
+        Fri, 19 Dec 2014 06:39:26 -0800 (PST)
+X-Received: by 10.42.204.139 with SMTP id fm11mr6995770icb.87.1418999937244;
+        Fri, 19 Dec 2014 06:38:57 -0800 (PST)
+Return-Path: <kts0946466236@gmail.com>
+Received: from mail-ie0-x241.google.com (mail-ie0-x241.google.com. [2607:f8b0:4001:c03::241])
+        by mx.google.com with ESMTPS id uf1si1286233igc.19.2014.12.19.06.38.57
+        for <nhatminh2106@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 19 Dec 2014 06:38:57 -0800 (PST)
+Received-SPF: pass (google.com: domain of kts0946466236@gmail.com designates 2607:f8b0:4001:c03::241 as permitted sender) client-ip=2607:f8b0:4001:c03::241;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of kts0946466236@gmail.com designates 2607:f8b0:4001:c03::241 as permitted sender) smtp.mail=kts0946466236@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ie0-x241.google.com with SMTP id x19so167231ier.0
+        for <nhatminh2106@gmail.com>; Fri, 19 Dec 2014 06:38:57 -0800 (PST)
+Return-Path: <kts0946466236@gmail.com>
+Received-SPF: pass (google.com: domain of kts0946466236@gmail.com designates 10.50.143.101 as permitted sender) client-ip=10.50.143.101
+X-Received: from mr.google.com ([10.50.143.101])
+        by 10.50.143.101 with SMTP id sd5mr3321184igb.40.1418999936132 (num_hops = 1);
+        Fri, 19 Dec 2014 06:38:56 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=OpMOv6pWUwTln5cByLjA3XR/xljSjh2NjMRn8vrA1PY=;
+        b=nRm88CTWZGO+CLLYPMUoqtD3lntQgA56ViZ6oPR2JawUcI8HncgTpvU5KF9NQYcJ33
+         +Soh1Om7IwdPOOd0NlVktrBJ6kLFtnDtS/fns1OUJjhIAbK2PJTKfrfImTORhBerO/t4
+         FJU86gNXIwIA15tPZsWbCW27p6xmh/p1D0vhGzeRAYr8PdR0scJYCXjZOuOyHYvfbqOs
+         x9e67ApOiYyIe9KCp7cL1avniO9XIrq39Ub/TDfWq7wIy0JsZ0WpCvZ63THdH/3IWNWN
+         Iu+h/sonvt/FkA5uWymeb1+Du89rqP+9Y/B7gzJhvwy05c5MJBtn3z2J6cS5eUaFhL0X
+         l4+w==
+MIME-Version: 1.0
+X-Received: by 10.50.143.101 with SMTP id sd5mr3321184igb.40.1418999936127;
+ Fri, 19 Dec 2014 06:38:56 -0800 (PST)
+Received: by 10.107.162.81 with HTTP; Fri, 19 Dec 2014 06:38:55 -0800 (PST)
+Received: by 10.107.162.81 with HTTP; Fri, 19 Dec 2014 06:38:55 -0800 (PST)
+Date: Fri, 19 Dec 2014 21:38:55 +0700
+Message-ID: <CADSqLJNKNLWOsp6XxZ0pA5Bx9gc-p35fminE+Urb9EeF_vV=4A@mail.gmail.com>
+Subject: =?UTF-8?B?UGjDosyAbiBtw6rMgG0gdOG7sSB2aeG6v3QgbOG6p24gMg==?=
+From: =?UTF-8?B?VMawIHbhuqVuIEtp4bq/biB0csO6Yw==?= <kts0946466236@gmail.com>
+To: nhatminh2106@gmail.com
+Content-Type: multipart/mixed; boundary=001a1134bad02119a3050a92abfd
+
+--001a1134bad02119a3050a92abfd
+Content-Type: multipart/alternative; boundary=001a1134bad021199f050a92abfb
+
+--001a1134bad021199f050a92abfb
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+KFThu7EgZ+G7rWkpDQpWaeG6v3QgbmfDoHkgMTkvMTIvMjAxNC4NCk5nw7RuIG5n4buvIHZp4bq/
+dCBQYXNjYWwNCkNoxrDGoW5nIHRyw6xuaCBnaeG6o2kgcGjGsMahbmcgdHLDrG5oIGLhuq1jIEkg
+Y8OzIDIg4bqpbi4NCg==
+--001a1134bad021199f050a92abfb
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+PHA+KFThu7EgZ+G7rWkpPGJyPg0KVmnhur90IG5nw6B5IDE5LzEyLzIwMTQuPGJyPg0KTmfDtG4g
+bmfhu68gdmnhur90IFBhc2NhbDxicj4NCkNoxrDGoW5nIHRyw6xuaCBnaeG6o2kgcGjGsMahbmcg
+dHLDrG5oIGLhuq1jIEkgY8OzIDIg4bqpbi48L3A+DQo=
+--001a1134bad021199f050a92abfb--
+--001a1134bad02119a3050a92abfd
+Content-Type: application/octet-stream; name="PT,bacI,2an.pas"
+Content-Disposition: attachment; filename="PT,bacI,2an.pas"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: 1487929189512249344-1
+
+cHJvZ3JhbSBQVF9iYWNJXzJhbjsKe3R1IHZpZXQgbGFuIDJ9CnZhcgp4LHkseixhMSxiMSxjMSxh
+MixiMixjMjpyZWFsOwpiZWdpbgp3cml0ZWxuKCdHaWFpIFBUIGJhYyBJIGNvIDIgYW4nKTt3cml0
+ZWxuOwp3cml0ZWxuKCdUcnVvYyBoZXQgY2h1eWVuIHZlIGRhbmc6Jyk7CndyaXRlbG4oJyAgIGEx
+eCArIGIxeSA9IGMxJyk7CndyaXRlbG4oJ3ZhIGEyeCArIGIyeSA9IGMyJyk7CndyaXRlbG47Cndy
+aXRlKCctIE5oYXAgYTE6ICcpOwpyZWFkbG4oYTEpOwp3cml0ZSgnLSBOaGFwIGIxOiAnKTsKcmVh
+ZGxuKGIxKTsKd3JpdGUoJy0gTmhhcCBjMTogJyk7CnJlYWRsbihjMSk7CndyaXRlKCctIE5oYXAg
+YTI6ICcpOwpyZWFkbG4oYTIpOwp3cml0ZSgnLSBOaGFwIGIyOiAnKTsKcmVhZGxuKGIyKTsKd3Jp
+dGUoJy0gTmhhcCBjMjogJyk7CnJlYWRsbihjMik7Cnk6PShjMSphMi1hMSpjMikvKGEyKmIxLWEx
+KmIyKTsKeDo9KGMxLWIxKnkpL2ExOyAKd3JpdGVsbjsKd3JpdGUoJ1ZheSwgeCA9ICcseDoyOjMp
+Owp3cml0ZWxuKCcgdmEgeSA9ICcseToyOjMpOwpyZWFkbG4KZW5kLgo=
+--001a1134bad02119a3050a92abfd--

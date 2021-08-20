@@ -1,0 +1,126 @@
+Delivered-To: nhatminh2106@gmail.com
+Received: by 2002:a50:b606:0:0:0:0:0 with SMTP id b6csp9533302ede;
+        Sat, 9 Mar 2019 16:42:55 -0800 (PST)
+X-Received: by 2002:a37:d8c:: with SMTP id 134mr13687085qkn.336.1552178575305;
+        Sat, 09 Mar 2019 16:42:55 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1552178575; cv=none;
+        d=google.com; s=arc-20160816;
+        b=XTdPn/1P3+Acv/N6ilvwWOtuK5tVUStDwezhEEKWP/2conjlyBw71PQP72RkQLk/9O
+         m64Js7+7CiXC7Kx2+efgEWtRVAskp8vMB+jDi2YEpqWJELJLyz5Tw8UMbF5K1jK/vWtD
+         we+AV/BnCyK8uBXD2JLGE0Km5ZIncLHcucIPISk2S1T4jHyI7i0Lj4MeccVk+e9F5tTd
+         gIHdF4mA22gv88ozCwIMuOXW0XExA1b8NMn94fVdIwQIB/HNXzMPSTCM1MIM573U4FOd
+         qpbaBM626fESNENMfU/YUJymh9+oDhZmnPBx+nKSPoBNzJECoDiPbhX4xJMc5PvgfR4/
+         XitA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=4A5JJG3nnIVNKCEwasQSMTLc4appowB6LJQ0yuKiQos=;
+        b=XFTKPIrgLFKhgnMGOamcA3kR3G1ZeX69v6a2290u9MlIpQXcD4rQGyYKooBvXEBy1/
+         Da1mqWxOof9lZ9dLxMXSdF8Zjou4obicGK0cYjyavg+sCllalWW0Qko5xdVEc8DfDuiW
+         419NQzWK80cn9Us0HFI+Ivk2MU5MSWZHl4azgR2F4BO0IqU5ECHd0JTtDwDmT0OvrI6F
+         NTQpNf1IduV89H6nUszYaKcuAlL5retlBBt2dbnBwPorhHv2pzUKSzBYBphQw98v7sny
+         p8n+/mgBVcnLe0XLxRFucWVMyMWCPuN3iajDomQCUD68fjKxzLUMb4hCHlnmfFbx3xMr
+         4W2g==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b="WAyuc/hQ";
+       spf=pass (google.com: domain of pnga108@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=pnga108@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <pnga108@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h19sor1984581qve.33.2019.03.09.16.42.54
+        for <nhatminh2106@gmail.com>
+        (Google Transport Security);
+        Sat, 09 Mar 2019 16:42:55 -0800 (PST)
+Received-SPF: pass (google.com: domain of pnga108@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b="WAyuc/hQ";
+       spf=pass (google.com: domain of pnga108@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=pnga108@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=4A5JJG3nnIVNKCEwasQSMTLc4appowB6LJQ0yuKiQos=;
+        b=WAyuc/hQbu8yBcygKdf9kVqnvhHGMSqrQmS7q5b3q4zJepSsb1C/uN9iGsrgxRmvO9
+         SUqZJf5dpWAig9CL53hve7Sxo3LCFyR5xfVX9aCbbEBJeBpn5J6brIkx3OeYCzZgriBX
+         +7yyOmf9UyRdQHJT6U3W3ncAei65O3Sh/iU9a+JI6930I4DVppHirq0aGIvyuqoOicfS
+         G/72lf7CPBmhizHTzHlLAvvXUpeLSMrYvOxWyAIn/C/FWL/0rVlKy93BZnqKV+0L0yLb
+         L8BQD/n5+CJpkLL+72qvU56IU1hnC17EWy6HEUcS7j8SrMbKARmamDgdUEJlSfWvv4WV
+         OAmQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=4A5JJG3nnIVNKCEwasQSMTLc4appowB6LJQ0yuKiQos=;
+        b=RJjjPHDntEG1vLCdVHAriB6du2rKqkPJ0X0RAC7Dw9XAKMSVQM7978SefcSb23gH6H
+         tIWbZzqiSQrueS1EeDbsxtTe9wJDpsLHL6Zbpd/ht9a5hFWH8Gy4mT4j7eOYrCOhDq+Q
+         Cyq0a8H6pkMAFwxKIlV3FrIATrlnseVaT8JMk9qC8AnVPdNCM5K2zX3x+/f5gUetACM0
+         qGGh+wS60abADLzp9tuHli0ElGb/Msh/ye2TTERazrQZblqKOnYVMUINSzhmGaA7OHHa
+         2y6SrZwxbKSvjvz+nVvqHZUTr581CNG63QT2skU92D7Tm7KKpcMvlJvJOMpKoA6Zt9vG
+         7bEw==
+X-Gm-Message-State: APjAAAXQsBV4jH5DZp5MrKLUpUSju6tFuBBjCyGrn24j45aUHXFI6Hzt
+	Z11RB3n9MKKLVldg7uSmjOp+QhEOmX8MGKkXZRlhXw==
+X-Google-Smtp-Source: APXvYqy8mzUF43owlEre3w9dwqunUUwvV7YbVyApgqPW/33WSU2DgPGj6l+5xypjWbEs0B7A4giHxZU9klFH0szKQVE=
+X-Received: by 2002:a0c:b7a1:: with SMTP id l33mr20900440qve.160.1552178574530;
+ Sat, 09 Mar 2019 16:42:54 -0800 (PST)
+MIME-Version: 1.0
+References: <CAJm3c+G2OEsUd6K=tK-JJpvC40b6_toNSD72sgcLObFFCBoOHQ@mail.gmail.com>
+ <CAKkfTVBRHnu5omR-gqEh5ffEif0wv+zcgoPvVRpmaP9h38nCVA@mail.gmail.com>
+In-Reply-To: <CAKkfTVBRHnu5omR-gqEh5ffEif0wv+zcgoPvVRpmaP9h38nCVA@mail.gmail.com>
+From: Phuong Nga Vu <pnga108@gmail.com>
+Date: Sun, 10 Mar 2019 07:42:42 +0700
+Message-ID: <CANEgCfi4_2Ea4b-OJqkCJf-y-an5nLu_iyiAi5++uwt=62bNwg@mail.gmail.com>
+Subject: Re: xepten
+To: =?UTF-8?B?Tmjhuq10IE1pbmggSG/DoG5nIFRy4bqnbg==?= <nhatminh2106@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000901fb10583b2bc1d"
+
+--000000000000901fb10583b2bc1d
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+T2sgY8O0IMSRw6MgbmjDom4gxJFjIGLDoGkgcuG7k2kgbmjDqQ0KDQpPbiBUaHUsIE1hciA3LCAy
+MDE5LCAxODowMyBOaOG6rXQgTWluaCBIb8OgbmcgVHLhuqduIDxuaGF0bWluaDIxMDZAZ21haWwu
+Y29tPg0Kd3JvdGU6DQoNCj4NCj4gRW0gbMOgIEhvw6BuZyBUcuG6p24gTmjhuq10IE1pbmggaOG7
+jWMgbOG7m3AgMTFUNCDhuqENCj4gRW0gZ+G7rWkgY8O0IGLDoGkga2nhu4NtIHRyYSAxIHRp4bq/
+dCBj4bunYSBlbSDhuqEuDQo+IELDoGkgbsOgeSBlbSBz4bqvcCB44bq/cCB0w6puIHJpw6puZywg
+xJHhur9uIHTDqm4gxJHhu4dtIHLhu5NpIHThu5tpIGjhu40g4bqhLCBuw6puIHPhur0gY8OzIHNh
+aSBraMOhYw0KPiB24bubaSBraeG7g3UgeOG6v3AgY+G7p2EgZGFuaCBzw6FjaCBs4bubcCDhuqEu
+DQo+IEVtIGPhuqNtIMahbiBjw7Qg4bqhDQo+DQo+IC0tLS0tLS0tLS0gRm9yd2FyZGVkIG1lc3Nh
+Z2UgLS0tLS0tLS0tDQo+IEZyb206IE1pbmggTiA8YmFvbWF0Lm5oYXRtaW5oMjEwNkBnbWFpbC5j
+b20+DQo+IERhdGU6IFRoIDUsIDcgdGhnIDMsIDIwMTkgdmHMgG8gbHXMgWMgMTU6NTYNCj4gU3Vi
+amVjdDogeGVwdGVuDQo+IFRvOiBOaOG6rXQgTWluaCBIb8OgbmcgVHLhuqduIDxuaGF0bWluaDIx
+MDZAZ21haWwuY29tPg0KPg0KPg0KPg0KPg0K
+--000000000000901fb10583b2bc1d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Ok c=C3=B4 =C4=91=C3=A3 nh=C3=A2n =C4=91c b=C3=A0i r=E1=
+=BB=93i nh=C3=A9</div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=
+=3D"gmail_attr">On Thu, Mar 7, 2019, 18:03 Nh=E1=BA=ADt Minh Ho=C3=A0ng Tr=
+=E1=BA=A7n &lt;<a href=3D"mailto:nhatminh2106@gmail.com">nhatminh2106@gmail=
+.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"mar=
+gin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr=
+"><div class=3D"gmail_default" style=3D"font-family:arial,helvetica,sans-se=
+rif"><br></div><div class=3D"gmail_default" style=3D"font-family:arial,helv=
+etica,sans-serif">Em l=C3=A0 Ho=C3=A0ng Tr=E1=BA=A7n Nh=E1=BA=ADt Minh h=E1=
+=BB=8Dc l=E1=BB=9Bp 11T4 =E1=BA=A1</div><div class=3D"gmail_default" style=
+=3D"font-family:arial,helvetica,sans-serif">Em g=E1=BB=ADi c=C3=B4 b=C3=A0i=
+ ki=E1=BB=83m tra 1 ti=E1=BA=BFt c=E1=BB=A7a em =E1=BA=A1.</div><div class=
+=3D"gmail_default" style=3D"font-family:arial,helvetica,sans-serif">B=C3=A0=
+i n=C3=A0y em s=E1=BA=AFp x=E1=BA=BFp t=C3=AAn ri=C3=AAng, =C4=91=E1=BA=BFn=
+ t=C3=AAn =C4=91=E1=BB=87m r=E1=BB=93i t=E1=BB=9Bi h=E1=BB=8D =E1=BA=A1, n=
+=C3=AAn s=E1=BA=BD c=C3=B3 sai kh=C3=A1c v=E1=BB=9Bi ki=E1=BB=83u x=E1=BA=
+=BFp c=E1=BB=A7a danh s=C3=A1ch l=E1=BB=9Bp =E1=BA=A1.</div><div class=3D"g=
+mail_default" style=3D"font-family:arial,helvetica,sans-serif">Em c=E1=BA=
+=A3m =C6=A1n c=C3=B4 =E1=BA=A1</div><br><div class=3D"gmail_quote"><div dir=
+=3D"ltr" class=3D"gmail_attr">---------- Forwarded message ---------<br>Fro=
+m: <strong class=3D"gmail_sendername" dir=3D"auto">Minh N</strong> <span di=
+r=3D"ltr">&lt;<a href=3D"mailto:baomat.nhatminh2106@gmail.com" target=3D"_b=
+lank" rel=3D"noreferrer">baomat.nhatminh2106@gmail.com</a>&gt;</span><br>Da=
+te: Th 5, 7 thg 3, 2019 va=CC=80o lu=CC=81c 15:56<br>Subject: xepten<br>To:=
+ Nh=E1=BA=ADt Minh Ho=C3=A0ng Tr=E1=BA=A7n &lt;<a href=3D"mailto:nhatminh21=
+06@gmail.com" target=3D"_blank" rel=3D"noreferrer">nhatminh2106@gmail.com</=
+a>&gt;<br></div><br><br><div dir=3D"ltr"><br></div>
+</div></div>
+</blockquote></div>
+
+--000000000000901fb10583b2bc1d--

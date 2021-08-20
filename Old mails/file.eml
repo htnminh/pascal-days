@@ -1,0 +1,86 @@
+Delivered-To: nhatminh2106@gmail.com
+Received: by 10.107.172.199 with SMTP id v190csp496749ioe;
+        Thu, 29 Dec 2016 06:06:25 -0800 (PST)
+X-Received: by 10.194.191.201 with SMTP id ha9mr36570120wjc.205.1483020385037;
+        Thu, 29 Dec 2016 06:06:25 -0800 (PST)
+Return-Path: <pham.bthuy@gmail.com>
+Received: from mail-wj0-x242.google.com (mail-wj0-x242.google.com. [2a00:1450:400c:c01::242])
+        by mx.google.com with ESMTPS id j16si48100091wmd.116.2016.12.29.06.06.24
+        for <nhatminh2106@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 29 Dec 2016 06:06:25 -0800 (PST)
+Received-SPF: pass (google.com: domain of pham.bthuy@gmail.com designates 2a00:1450:400c:c01::242 as permitted sender) client-ip=2a00:1450:400c:c01::242;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com;
+       spf=pass (google.com: domain of pham.bthuy@gmail.com designates 2a00:1450:400c:c01::242 as permitted sender) smtp.mailfrom=pham.bthuy@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-wj0-x242.google.com with SMTP id hb5so19700663wjc.2
+        for <nhatminh2106@gmail.com>; Thu, 29 Dec 2016 06:06:24 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=r5FuP9jpVcAna+S4gpwp32cSJgIyRX7/H7yCy51xfpc=;
+        b=XEJcdqmiVOqB/FAfg/w4Ol/SRkR0bhYp3o+gf92p3EguPeKPiCibe4H2eDqspflvsv
+         glA7vcfJdOxH5XmXAp6VTUfuthtYrEx+2fxCA+WiefH8iuK9uvof7OuOtPu4XzjIbYQ1
+         n2cYnlOq+S0xAFpgjCqX6yfyqdFSWbPzgF5bm58SF2iHb+BoAZX4bkPWiuSJVErHJUYb
+         A+vQE6IfFz5noh2g9CdowHV8LPJeI/kckTZ/Qm8xEZR/VBohUt5hUlp+Cr00P9334YNp
+         3sgx84Bhd13rJ0os8NSbZTM9X2+VJMx34SwkRCqzJ1mkCxRlu3Ac9ecY32kqm5eab28/
+         G5pw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=r5FuP9jpVcAna+S4gpwp32cSJgIyRX7/H7yCy51xfpc=;
+        b=LUWRarIa9zqSxjMXxmRdnYW8T0D79xpye7zTWi+nZawMV/euBs35NpR0DSiIIXP/h8
+         Exkilgrg8jYZw22olCtaqamEoimqtvuA6pZJhauQ1pqpzPMjue8eerDvBC7veHijtJRh
+         9oX9DrEUKyj5Lw4hyXLCEB/1zmQRPEH+TeEl/STwbESg5YSlpHBQdDpyfciMwdGumz9f
+         fKIIGCIi0M+YIzZdwmOC19pOb1ZmDR9fU2bjBOWC+fX914/jjIESEGmO3jCLig2Z7UVv
+         n7iAia7TwE5OknUjNawPWv8o8/6FVjL45c+6IeOhHzxMRTyQjPvUfTwEgueNsn0Yk7pT
+         kW0w==
+X-Gm-Message-State: AIkVDXJX9WZYSG6Jmh9Q4tgxDuTcRWd4U/hBAdHc94vbGABlSng1UlP1YZDgz3kFRD+2l3CUp1LTdJoOrVSrnA==
+X-Received: by 10.194.137.15 with SMTP id qe15mr41176731wjb.16.1483020384114;
+ Thu, 29 Dec 2016 06:06:24 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.80.151.227 with HTTP; Thu, 29 Dec 2016 06:06:03 -0800 (PST)
+From: Thuy Pham <pham.bthuy@gmail.com>
+Date: Thu, 29 Dec 2016 21:06:03 +0700
+Message-ID: <CAPM9ZQNLW=pscmrDco8hsCf-coXytCdT_KAU8a1RwLMG+ANOjg@mail.gmail.com>
+Subject: file
+To: =?UTF-8?B?Tmjhuq10IE1pbmggSG/DoG5nIFRy4bqnbg==?= <nhatminh2106@gmail.com>
+Content-Type: multipart/mixed; boundary=bcaec50e615930d5bf0544cc970e
+
+--bcaec50e615930d5bf0544cc970e
+Content-Type: multipart/alternative; boundary=bcaec50e615930d5ba0544cc970c
+
+--bcaec50e615930d5ba0544cc970c
+Content-Type: text/plain; charset=UTF-8
+
+
+
+--bcaec50e615930d5ba0544cc970c
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr"><br></div>
+
+--bcaec50e615930d5ba0544cc970c--
+--bcaec50e615930d5bf0544cc970e
+Content-Type: text/plain; charset=US-ASCII; name="data.txt"
+Content-Disposition: attachment; filename="data.txt"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixag12ho0
+
+NQ0KMw0KMTINCjENCi02DQo0
+--bcaec50e615930d5bf0544cc970e
+Content-Type: application/octet-stream; name="mang_file.pas"
+Content-Disposition: attachment; filename="mang_file.pas"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ixag12la1
+
+VXNlcyBjcnQ7DQoNClZhcg0KDQpmOiB0ZXh0Ow0KDQpuLCBpLCBqOiBpbnRlZ2VyOw0KDQphOiBh
+cnJheVsxLi4xMDBdIG9mIGludGVnZXI7DQoNCnRnOiBpbnRlZ2VyOw0KDQpCZWdpbg0KDQpDbHJz
+Y3I7DQoNCmFzc2lnbihmLCAnZDpcZGF0YS50eHQnKTsNCg0KcmVzZXQoZik7DQoNClJlYWRsbihm
+LCBuKTsNCg0KRm9yIGk6PTEgdG8gbiBkbyBSZWFkbG4oZixhW2ldKTsNCg0KY2xvc2UoZik7DQoN
+CkJlZ2luDQoNCmZvciBpOj0xIHRvIG4tMSBkbw0KZm9yIGo6PWkrMSB0byBuIGRvDQppZiAoYVtp
+XT5hW2pdKSB0aGVuDQpiZWdpbg0KdGc6PWFbaV07DQphW2ldOj1hW2pdOw0KYVtqXTo9dGc7DQpl
+bmQ7DQogICBlbmQ7DQpGb3IgaTo9MSB0byBuIGRvIFdyaXRlbG4oYVtpXSk7DQoNClJlYWRsbjsN
+Cg0KRW5kLg0KDQo=
+--bcaec50e615930d5bf0544cc970e--

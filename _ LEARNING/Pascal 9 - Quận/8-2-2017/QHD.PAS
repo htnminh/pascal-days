@@ -1,0 +1,42 @@
+uses crt;
+var
+begin
+     write('N='); readln(n);
+
+     for i:=1 to n do
+     begin
+          write('So thu ',i,'='); readln(n);
+     end;
+
+     dem:=1; i:=1; max:=1; k:=1;
+
+     while i<=n-1 do
+     begin
+          j:=2;
+          while a[i]=a[j] then
+          begin
+               dem:=dem+1;
+               j:=j+1;
+          end;
+
+          if dem>max then
+          begin
+               max:=dem;
+               b[k]:=dem;
+               k:=k+1;
+          end;
+     end;
+
+     for i:=1 to k-1 do
+         for j:=i+1 to k do
+             if b[i]<b[j] then
+             begin
+                  tg:=b[i];
+                  b[i]:=b[j];
+                  b[j]:=tg;
+             end;
+
+
+
+     readln
+end.

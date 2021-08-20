@@ -1,0 +1,126 @@
+Delivered-To: nhatminh2106@gmail.com
+Received: by 2002:a50:b606:0:0:0:0:0 with SMTP id b6csp6460587ede;
+        Wed, 6 Mar 2019 20:31:03 -0800 (PST)
+X-Received: by 2002:a9d:730d:: with SMTP id e13mr6405096otk.281.1551933062963;
+        Wed, 06 Mar 2019 20:31:02 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1551933062; cv=none;
+        d=google.com; s=arc-20160816;
+        b=W2qa2ZganyuGX16gA6+olfuCC8QinQN3tsoBh2/i0dyVWadpPYaJ5WpJZnY9J8CNAK
+         1WZxFhJYnrIwfwVn5UzrYHtcKT037Z8157J7VvosdK/a2paJ0156EecR0mnjyvZ5OIOO
+         hgM5DEP5hW8Yash6NBiXbuS3tzWJboofEIwIlq7MkksjJfM18wQL15Zc6BrfInBSp1Vy
+         q+CYyTd6QsdnXEebhd1ndItHjlCwCpE+xnpa85iBtHYe3iaRDhOh5BEyoWXO47aUfUvL
+         ET4+QZyZB8mYxv3pevxEyhOtsXephX3mxauvm0jkOvkrMlmOsTFiPiygl5nD4Po0bc17
+         l9zA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=FdBUY5zYuBCW8bL7v1EQKdced49kl3UkN1bM8Zge2VI=;
+        b=irY1ApTBoW8GA0IuQK3vuHn+6HvD6HNvquwGl2LPOKjhSFP5880SJ4OE/r4rnq2NS/
+         z+MnnnpTAbkkL6Z9rmP1SzshxCWsvJHZxZFdphzd2aOLLmrKMwYJK8aHFY69FY/szzJc
+         qzVZHFIGF0vQHst3pzg7LVzMStn40RBb5kz5wA7lYu/TWKgbXi7brv39KyAlsHd/7tt1
+         pQD/c2aItimwwfRrT5YX+hJXV/ktlXWzRryTPrGjJY7UTxjjrfNEZdlNeDamsoj3fcnB
+         oOt8MDaMSBAO/TATheEBgDLBtMQxKwbFUL2MYmy/RT36nTqSQkM3kVXRWFS49j6rVe5l
+         3Z6w==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=sSmLOWE3;
+       spf=pass (google.com: domain of baomat.nhatminh2106@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=baomat.nhatminh2106@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <baomat.nhatminh2106@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v1sor1884310oth.128.2019.03.06.20.31.02
+        for <nhatminh2106@gmail.com>
+        (Google Transport Security);
+        Wed, 06 Mar 2019 20:31:02 -0800 (PST)
+Received-SPF: pass (google.com: domain of baomat.nhatminh2106@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=sSmLOWE3;
+       spf=pass (google.com: domain of baomat.nhatminh2106@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=baomat.nhatminh2106@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=FdBUY5zYuBCW8bL7v1EQKdced49kl3UkN1bM8Zge2VI=;
+        b=sSmLOWE39CsNrXbANAxGmk0pQxIUlF18bWGmlEumP2WyaYTM/wZTPP/3Z6A5tLWVFk
+         huaRcSDAjUGh46R5MdDbVkdN2X0j/CJgaHCKtUWK13W4pRs11ZblPSbql6LIYaPtOpRV
+         WeB1jEWuBKAmJvuSDlhSN21guNbImvMUFnASfPDN2CcSqWweyg6uHMxhLysh/ExdV6IY
+         uP3VOV1tyj+2z64BGZzzTpBTqmghyVIpmCjdgRikdM1cjmK2qiHMpADp9q3w62GLxElm
+         KmJrWU96cxi8dN6Vliycc2WAEgaxxdqj6QsGL45JaS297e7gRVZKCVQAd6H+Zjif9cem
+         TOeg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=FdBUY5zYuBCW8bL7v1EQKdced49kl3UkN1bM8Zge2VI=;
+        b=Axat6x+uKWll6AkHvfzSam/3720InVzI2gXWNwG4H0qWDGttNJeEgXroTzBVT3hEZZ
+         AGJkxErWKod4EcS/ngaFcRc4Mjh56YrnUmVoLyL2IOV9Ire1S2djHIvwnezB74SHzopC
+         WvbdiMoq+dwdlnc1yXyBksVWa/X/m2c2M8EqLk14mb2QG6NC0uu4PrIv4gkz9e72/uzC
+         WnOP2M2lz9lxmABeAB71MrC+YGQn3ao+1hiiefoTXDv3wM9Y8GMVU+1r25CGOqRM+hPS
+         OX+Vxi/Zyp7KwERhMfKg8SgFiFItNnRwYMgqASELZYhuF8aDK9fyQA3fullFHMbbWs/6
+         +rMQ==
+X-Gm-Message-State: APjAAAVAL80p/17q8iRH1TbtU8/JIuwT384bbA0CGtfPJCJmRPkx+PcJ
+	qEXyzObjMqwQFF0YgU1LtiBvdwMkNI6i+rbaGOXEHw==
+X-Google-Smtp-Source: APXvYqx8LYxqj1Fcw7LS12zBkWyIS+fR5XhRD2GOsXgGqYRpDhB2Xm6CEUW+S81NrxlGG6M78/a+T7l96h9YAu2ZAVQ=
+X-Received: by 2002:a05:6830:1642:: with SMTP id h2mr6805469otr.152.1551933062031;
+ Wed, 06 Mar 2019 20:31:02 -0800 (PST)
+MIME-Version: 1.0
+From: Minh N <baomat.nhatminh2106@gmail.com>
+Date: Sat, 9 Mar 2019 14:01:07 +0700
+Message-ID: <CAJm3c+HRY2BEdSttL4+AXKOOBfOX8B9adbV4AFHUfpTQBUj5ZQ@mail.gmail.com>
+Subject: 
+To: =?UTF-8?B?Tmjhuq10IE1pbmggSG/DoG5nIFRy4bqnbg==?= <nhatminh2106@gmail.com>
+Content-Type: multipart/mixed; boundary="000000000000e0ea0305837992ba"
+
+--000000000000e0ea0305837992ba
+Content-Type: multipart/alternative; boundary="000000000000e0ea0005837992b8"
+
+--000000000000e0ea0005837992b8
+Content-Type: text/plain; charset="UTF-8"
+
+
+
+--000000000000e0ea0005837992b8
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr"><br></div>
+
+--000000000000e0ea0005837992b8--
+--000000000000e0ea0305837992ba
+Content-Type: application/octet-stream; name="CODE.PAS"
+Content-Disposition: attachment; filename="CODE.PAS"
+Content-Transfer-Encoding: base64
+Content-ID: <f_jt153mz60>
+X-Attachment-Id: f_jt153mz60
+
+dmFyIGlwLG9wOnRleHQ7DQogICAgbixpLGosbWF4OmxvbmdpbnQ7DQogICAgYzphcnJheVsxLi4x
+MDAwXW9mIGxvbmdpbnQ7DQogICAgdHU6YXJyYXlbMS4uMTAwMF1vZiBzdHJpbmdbMTBdOw0KICAg
+IHM6c3RyaW5nOw0KYmVnaW4NCiAgICAgbWF4Oj0wOw0KICAgICBhc3NpZ24oaXAsJ2NvZGUuaW5w
+Jyk7IHJlc2V0KGlwKTsNCiAgICAgcmVhZGxuKGlwLG4pOw0KICAgICBmb3IgaTo9MSB0byBuIGRv
+DQogICAgICAgICBiZWdpbiByZWFkKGlwLGNbaV0pOyBpZiBjW2ldPm1heCB0aGVuIG1heDo9Y1tp
+XTsNCiAgICAgICAgIGVuZDsNCiAgICAgcmVhZGxuKGlwKTsNCiAgICAgcmVhZGxuKGlwLHMpOyBj
+bG9zZShpcCk7DQoNCiAgICAgYXNzaWduKG9wLCdjb2RlLm91dCcpOyByZXdyaXRlKG9wKTsNCiAg
+ICAgajo9MTsNCiAgICAgZm9yIGk6PTEgdG8gbGVuZ3RoKHMpIGRvDQogICAgICAgICBiZWdpbg0K
+ICAgICAgICAgICAgICB3aGlsZSBsZW5ndGgodHVbal0pPj1jW2pdIGRvIGJlZ2luIGluYyhqKTsg
+aWYgaj5uIHRoZW4gajo9MSBlbmQ7DQogICAgICAgICAgICAgIHR1W2pdOj10dVtqXStzW2ldOw0K
+ICAgICAgICAgICAgICBpbmMoaik7IGlmIGo+biB0aGVuIGo6PTE7DQogICAgICAgICBlbmQ7DQog
+ICAgIGZvciBpOj0xIHRvIG4tMSBkbyB3cml0ZShvcCx0dVtpXSwnICcpOyB3cml0ZShvcCx0dVtu
+XSk7DQogICAgIGNsb3NlKG9wKTsNCmVuZC4=
+--000000000000e0ea0305837992ba
+Content-Type: application/octet-stream; name="XEPTEN.PAS"
+Content-Disposition: attachment; filename="XEPTEN.PAS"
+Content-Transfer-Encoding: base64
+Content-ID: <f_jt1543ac1>
+X-Attachment-Id: f_jt1543ac1
+
+dmFyIGE6YXJyYXlbMS4uNTBdIG9mIHN0cmluZzsNCiAgICBuLGk6aW50ZWdlcjsNCnByb2NlZHVy
+ZSBjaHVhbjsNCiAgICAgICAgICB2YXIgYyxqOmludGVnZXI7DQogICAgICAgICAgYmVnaW4NCiAg
+ICAgICAgICB7eG9hIGRhdSBjYWNofQ0KICAgICAgICAgICAgICAgd2hpbGUgcG9zKCcgICcsYVtp
+XSk8PjAgZG8gZGVsZXRlKGFbaV0scG9zKCcgICcsYVtpXSksMSk7DQogICAgICAgICAgICAgICBp
+ZiBhW2ldWzFdPScgJyB0aGVuIGRlbGV0ZShhW2ldLDEsMSk7DQogICAgICAgICAgICAgICBjOj1s
+ZW5ndGgoYVtpXSk7DQogICAgICAgICAgICAgICBpZiBhW2ldW2NdPScgJyB0aGVuIGRlbGV0ZShh
+W2ldLGMsMSk7DQogICAgICAgICAge3ZpZXQgaG9hfQ0KICAgICAgICAgICAgICAgYVtpXVsxXTo9
+dXBjYXNlKGFbaV1bMV0pOw0KICAgICAgICAgICAgICAgZm9yIGo6PTIgdG8gbGVuZ3RoKGFbaV0p
+IGRvDQogICAgICAgICAgICAgICAgICAgaWYgYVtpXVtqLTFdPScgJyB0aGVuIGFbaV1bal06PXVw
+Y2FzZShhW2ldW2pdKTsNCmVuZDsNCmZ1bmN0aW9uIGxvbmhvbihhLGI6c3RyaW5nKTpib29sZWFu
+Ow0KYmVnaW4NCg0KZW5kOw0KYmVnaW4NCiAgICAgd3JpdGUoJ1NvIEhTOiAnKTsgcmVhZGxuKG4p
+Ow0KICAgICBmb3IgaTo9MSB0byBuIGRvDQogICAgICAgICBiZWdpbiB3cml0ZSgnVGVuICcsaSwn
+OiAnKTsgcmVhZGxuKGFbaV0pIGVuZDsNCiAgICAgZm9yIGk6PTEgdG8gbiBkbyBjaHVhbjsNCg0K
+ICAgICBmb3IgaTo9MSB0byBuIGRvIGlmDQoNCiAgICAgcmVhZGxuDQplbmQu
+--000000000000e0ea0305837992ba--

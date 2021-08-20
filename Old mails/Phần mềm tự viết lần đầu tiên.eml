@@ -1,0 +1,71 @@
+Delivered-To: nhatminh2106@gmail.com
+Received: by 10.202.229.5 with SMTP id c5csp303600oih;
+        Fri, 19 Dec 2014 07:05:51 -0800 (PST)
+Return-Path: <namhoangthanh@gmail.com>
+Received-SPF: pass (google.com: domain of namhoangthanh@gmail.com designates 10.194.24.103 as permitted sender) client-ip=10.194.24.103
+Authentication-Results: mr.google.com;
+       spf=pass (google.com: domain of namhoangthanh@gmail.com designates 10.194.24.103 as permitted sender) smtp.mail=namhoangthanh@gmail.com;
+       dkim=pass header.i=@gmail.com
+X-Received: from mr.google.com ([10.194.24.103])
+        by 10.194.24.103 with SMTP id t7mr15667263wjf.15.1419001550613 (num_hops = 1);
+        Fri, 19 Dec 2014 07:05:50 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=ZgCat1ID/qH1K3RWqAa8VB7GAD1rEn4p3sUeeC+eqzM=;
+        b=kmeBeWZF+aAKXSfsvlFSqQri7Xt7sClUFd9uvI8Wk26EpHLgBunZ3xTVORZLl7pFaa
+         aq2vHSUsjzSRtVYBvHlbK2xhkNen5seNt7ZnB7QMc8y5nqOo34ca9ubXoZ2U0GhrfQHY
+         FSXvhxprxMJtF9xe9hptIulGIw7AYaMrzyP+diU1oAvLjsZtfaizr2JU8tT1JIdPcf4W
+         nxSnL/KIeGr1+ZLbqcty2ngMDU1esiHChjNeQO8fUMow/ESadge75OwV9xD7FDMShtMf
+         KSkGVBPnd8YSvlAU+auXwisRH1CUaQ4qQRRsf2jACxQxlY/T3KcE5JOx350RaH6gWq9v
+         8YVw==
+MIME-Version: 1.0
+X-Received: by 10.194.24.103 with SMTP id t7mr15667263wjf.15.1419001550608;
+ Fri, 19 Dec 2014 07:05:50 -0800 (PST)
+Received: by 10.194.151.199 with HTTP; Fri, 19 Dec 2014 07:05:46 -0800 (PST)
+Received: by 10.194.151.199 with HTTP; Fri, 19 Dec 2014 07:05:46 -0800 (PST)
+Date: Fri, 19 Dec 2014 22:05:46 +0700
+Message-ID: <CAG7ZJgS0=67ORMvz7JAq+BhfMNGECn-PRegqTzRxkfBex8E9hA@mail.gmail.com>
+Subject: =?UTF-8?B?UGjhuqduIG3hu4FtIHThu7Egdmnhur90IGzhuqduIMSR4bqndSB0acOqbg==?=
+From: nam hoangthanh <namhoangthanh@gmail.com>
+To: =?UTF-8?B?Tmjhuq10IE1pbmggSG/DoG5nIFRy4bqnbg==?= <nhatminh2106@gmail.com>
+Content-Type: multipart/mixed; boundary=047d7b5d43985c1f7a050a930bc6
+
+--047d7b5d43985c1f7a050a930bc6
+Content-Type: multipart/alternative; boundary=047d7b5d43985c1f74050a930bc4
+
+--047d7b5d43985c1f74050a930bc4
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+KFThu7EgZ+G7rWkpDQpQaOG6p24gbeG7gW0gdOG7sSB2aeG6v3QgbOG6p24gxJHhuqd1IHRpw6pu
+IG5nw6B5IDE3LzEyLzIwMTQuDQpOZ8O0biBuZ+G7ryBs4bqtcCB0csOsbmggUGFzY2FsLg0KQ2jG
+sMahbmcgdHLDrG5oIHTDrW5oIDIgc+G7kSBiaeG6v3QgdOG7lW5nIHbDoCB04buJIHPhu5EgZ2nh
+u69hIDIgc+G7kS4NCg==
+--047d7b5d43985c1f74050a930bc4
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+PHAgZGlyPSJsdHIiPihU4buxIGfhu61pKTxicj4NClBo4bqnbiBt4buBbSB04buxIHZp4bq/dCBs
+4bqnbiDEkeG6p3UgdGnDqm4gbmfDoHkgMTcvMTIvMjAxNC4gPGJyPg0KTmfDtG4gbmfhu68gbOG6
+rXAgdHLDrG5oIFBhc2NhbC4gPGJyPg0KQ2jGsMahbmcgdHLDrG5oIHTDrW5oIDIgc+G7kSBiaeG6
+v3QgdOG7lW5nIHbDoCB04buJIHPhu5EgZ2nhu69hIDIgc+G7kS48L3A+DQo=
+--047d7b5d43985c1f74050a930bc4--
+--047d7b5d43985c1f7a050a930bc6
+Content-Type: text/x-pascal; charset=US-ASCII; name="TongTi.pas"
+Content-Disposition: attachment; filename="TongTi.pas"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: 1487930961824841728-local0
+
+UHJvZ3JhbSBUb25nVGkge3R1IGxhbX07ClZhcgp0b25nLG1hdSx0dSx0aSxzbzEsc28yOlJlYWw7
+CkJlZ2luCldyaXRlbG4gKCdUaW5oIDIgc28gYmlldCB0b25nIDIgc28gdmEgdGkgc28gZ2l1YSAy
+IHNvJyk7CldyaXRlbG4gOwpXcml0ZWxuICgnVkQ6IFRvbmcgMiBzbyBsYSAyNCB2YSB0aSBzbyBs
+YSAzLzUgdGhpIHZpZXQ6Jyk7CiBXcml0ZWxuICgnVG9uZzogMjQnKTsKV3JpdGVsbiAoJ1RpOiBU
+dSBzbzogMycpOwpXcml0ZWxuICgnICAgIE1hdSBzbzogNScpOwpXcml0ZWxuICgnQ2hvIGtldCBx
+dWEgbGE6IFNvIHRodSBuaGF0OiA5OyBTbyB0aHUgaGFpOiAxNScpOwpXcml0ZWxuIDsKV3JpdGVs
+biAoJ05oYXAgdG9uZyBoYWkgc286ICcpOwpSZWFkKHRvbmcpOwpXcml0ZWxuICgnTmhhcCB0aSBz
+byBnaXVhIGhhaSBzbzogVHUgc286ICcpOwpSZWFkKHR1KTsKV3JpdGVsbiAoJyAgICAgICAgICAg
+ICAgICAgICAgICAgTWF1IHNvOiAnKTsKUmVhZChtYXUpOwp0aTo9dHUrbWF1OwpzbzE6PXRvbmcv
+dGkqdHU7CnNvMjo9dG9uZy1zbzE7CldyaXRlbG4gKCcgLVNvIHRodSBuaGF0OiAnLHNvMToxOjYp
+OwpXcml0ZWxuICgnIC1TbyB0aHUgaGFpOiAnLHNvMjoxOjYpOwpSZWFkbG4KRW5kLgo=
+--047d7b5d43985c1f7a050a930bc6--

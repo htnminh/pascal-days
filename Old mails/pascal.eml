@@ -1,0 +1,165 @@
+Delivered-To: nhatminh2106@gmail.com
+Received: by 10.107.172.69 with SMTP id v66csp1057412ioe;
+        Sun, 26 Mar 2017 08:47:35 -0700 (PDT)
+X-Received: by 10.99.54.69 with SMTP id d66mr14165913pga.116.1490543255473;
+        Sun, 26 Mar 2017 08:47:35 -0700 (PDT)
+Return-Path: <samsungdung@yahoo.com.vn>
+Received: from nm30-vm1.bullet.mail.sg3.yahoo.com (nm30-vm1.bullet.mail.sg3.yahoo.com. [106.10.151.176])
+        by mx.google.com with ESMTPS id j9si9745104pgc.370.2017.03.26.08.47.34
+        for <nhatminh2106@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 26 Mar 2017 08:47:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of samsungdung@yahoo.com.vn designates 106.10.151.176 as permitted sender) client-ip=106.10.151.176;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@yahoo.com.vn;
+       spf=pass (google.com: domain of samsungdung@yahoo.com.vn designates 106.10.151.176 as permitted sender) smtp.mailfrom=samsungdung@yahoo.com.vn;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=yahoo.com.vn
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com.vn; s=s2048; t=1490543253; bh=CKUnqVU9yG41gcJxTRDKd4CO81Cd3lRESgqbZUJ2ESo=; h=Date:From:Reply-To:To:Subject:References:From:Subject; b=fGttsBxkkgIBFfPY4I03Lua/5lmpTYcpB3B4bka8qUQXWbcXdpUHRTub249tGAXYiBucHDQEQ6wNSCwFkzhbM8eXEhA9wAFwq5tvf1bVyeqp6dTpWR2P47+QQDxsVCw5fBPmAcynN5PmH1gnjsssvgK6Zaykks3QA9Fu1JJG1tCKXIsJ0/V4ixXv90fGRA780fKWUXD4XFBMVRbbjMlb9rE3/GWa3lIV3O77GF84KCrJVw5KAjIcJTTpiVBQ+iuVTvWURBz2u6Gp63VFTAtlbejBoXR4NZchM8nhcep40FepdN0aAz4ph8eVGnbGiBNtJj2H1o8nbV1jFSM6WGn2Xw==
+Received: from [106.10.166.127] by nm30.bullet.mail.sg3.yahoo.com with NNFMP; 26 Mar 2017 15:47:33 -0000
+Received: from [106.10.150.24] by tm16.bullet.mail.sg3.yahoo.com with NNFMP; 26 Mar 2017 15:47:33 -0000
+Received: from [127.0.0.1] by omp1025.mail.sg3.yahoo.com with NNFMP; 26 Mar 2017 15:47:33 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 925926.89444.bm@omp1025.mail.sg3.yahoo.com
+X-YMail-OSG: OxEB2YoVM1mhpTnqb1wdz9pYM8p2KBL9uNapAUmosSeQnJgLjnd82.SI_5uISaS
+ oG6p4ShJlGFiLp_ogd77_wSGCmYSkIhpoIm8zdlop6gabvcxQPvHo7kX281n5XM3dUOeSwc2L25n
+ lFhPpr01H.sn5kbVRI38jvwXTfYMqrhjAiiFgf0bh7UBG7MBNDh48kn4XSAKvEeFBi6t.WNeKpgB
+ t7DTQDyjlVO0GX83omWhvx1sURX5QfiREFL9KaJ1Oe3r6tCPDqX58ZcBXDxDUQ8cCC2MkhX9ZtaC
+ 3oai68qDilq_p1f2OcAevfK5rSGqACjeWzEBMHe5aXPuuK.WtCuQgmPgWVGsE7nSt8qTENeHY4IR
+ VpQfyyP1rA.RWLOiR5BGei3W3uYj8EVIwVhnv91YMzdj1llS.NswGKjlSuCeNBOMIDTMPpb__2qo
+ QXKYEXYvXOuXSs.W9YGCoii5dIAMehu46OIm0yCvWuC_lN2bl2eJIYjgCHI.i.SclkXJijN4Y08J
+ beLghGghTJZJrubF921FVYHqFltnpjVPKGBXkXQ--
+Received: from jws600001.mail.sg3.yahoo.com by sendmailws110.mail.sg3.yahoo.com; Sun, 26 Mar 2017 15:47:33 +0000; 1490543253.567
+Date: Sun, 26 Mar 2017 15:47:33 +0000 (UTC)
+From: Dung Dung <samsungdung@yahoo.com.vn>
+Reply-To: Dung Dung <samsungdung@yahoo.com.vn>
+To: "nhatminh2106@gmail.com" <nhatminh2106@gmail.com>
+Message-ID: <1344875528.4264141.1490543253378@mail.yahoo.com>
+Subject: pascal
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_4264140_1640988100.1490543253378"
+References: <1344875528.4264141.1490543253378.ref@mail.yahoo.com>
+Content-Length: 8175
+
+------=_Part_4264140_1640988100.1490543253378
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_4264139_711634210.1490543253376"
+
+------=_Part_4264139_711634210.1490543253376
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+M=C3=B4 h=C3=ACnh bi=E1=BA=BFn =C4=91=E1=BB=95i x=C3=A2u:G=E1=BB=8Di L[i, j=
+] l=C3=A0 s=E1=BB=91 c=C3=A1ch =C3=ADt nh=E1=BA=A5t =C4=91=E1=BB=83 bi=E1=
+=BA=BFn =C4=91=E1=BB=95i x=C3=A2uX[1..i] th=C3=A0nh x=C3=A2u F[1..j]
+V=E1=BA=ADy th=C3=AC:L[0, j] l=C3=A0 s=E1=BB=91 c=C3=A1ch bi=E1=BA=BFn =C4=
+=91=E1=BB=95i x=C3=A2u X =3D '' th=C3=A0nh x=C3=A2uF[1..j]. V=E1=BA=ADy: L[=
+0, j] =3D j
+L[i, 0] l=C3=A0 s=E1=BB=91 c=C3=A1ch bi=E1=BA=BFn =C4=91=E1=BB=95i x=C3=A2u=
+ X[1..i] th=C3=A0nh x=C3=A2uF =3D ''. V=E1=BA=ADy: L[i, 0] =3D i
+C=C3=A1c tr=C6=B0=E1=BB=9Dng h=E1=BB=A3p kh=C3=A1c:* X[i] =3D F[j]L[i, j] =
+=3D L[i-1, j-1]* X[i] <> F[j]C=C3=B3 th=E1=BB=83 ch=E1=BB=8Dn m=E1=BB=99t t=
+rong 3 c=C3=A1ch bi=E1=BA=BFn =C4=91=E1=BB=95i x=C3=A2u:+ C=C3=A1ch 1: Xo=
+=C3=A1 k=C3=BD t=E1=BB=B1 X[i]L[i, j] =3D L[i-1, j] + 1+ C=C3=A1ch 2: Thay =
+th=E1=BA=BF X[i] b=E1=BB=9Fi F[j]L[i, j] =3D L[i-1, j-1] + 1+ C=C3=A1ch 3: =
+Ch=C3=A8n F[j] v=C3=A0o sau X[i]L[i, j] =3D L[i, j-1] + 1Nh=C6=B0 v=E1=BA=
+=ADy: V=E1=BB=9Bi tr=C6=B0=E1=BB=9Dng h=E1=BB=A3p X[i] <> F[j] th=C3=AC:L[i=
+, j] =3D min(L[i-1, j] + 1,=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=
+ L[i-1, j-1] + 1,=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 L[i, j-1]=
+ + 1)
+X =3D 'tat ca'F =3D 'tat ca'
+------=_Part_4264139_711634210.1490543253376
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div style=3D"color:#000; background-color:#fff; f=
+ont-family:HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, =
+sans-serif;font-size:16px"><div id=3D"yui_3_16_0_1_1490543148621_5178">M=C3=
+=B4 h=C3=ACnh bi=E1=BA=BFn =C4=91=E1=BB=95i x=C3=A2u:</div><div id=3D"yui_3=
+_16_0_1_1490543148621_5179">G=E1=BB=8Di L[i, j] l=C3=A0 s=E1=BB=91 c=C3=A1c=
+h =C3=ADt nh=E1=BA=A5t =C4=91=E1=BB=83 bi=E1=BA=BFn =C4=91=E1=BB=95i x=C3=
+=A2u</div><div id=3D"yui_3_16_0_1_1490543148621_5180">X[1..i] th=C3=A0nh x=
+=C3=A2u F[1..j]</div><div id=3D"yui_3_16_0_1_1490543148621_5181"><br id=3D"=
+yui_3_16_0_1_1490543148621_5182"></div><div id=3D"yui_3_16_0_1_149054314862=
+1_5183">V=E1=BA=ADy th=C3=AC:</div><div id=3D"yui_3_16_0_1_1490543148621_51=
+84">L[0, j] l=C3=A0 s=E1=BB=91 c=C3=A1ch bi=E1=BA=BFn =C4=91=E1=BB=95i x=C3=
+=A2u X =3D '' th=C3=A0nh x=C3=A2u</div><div id=3D"yui_3_16_0_1_149054314862=
+1_5185">F[1..j]. V=E1=BA=ADy: L[0, j] =3D j</div><div id=3D"yui_3_16_0_1_14=
+90543148621_5186"><br id=3D"yui_3_16_0_1_1490543148621_5187"></div><div id=
+=3D"yui_3_16_0_1_1490543148621_5188">L[i, 0] l=C3=A0 s=E1=BB=91 c=C3=A1ch b=
+i=E1=BA=BFn =C4=91=E1=BB=95i x=C3=A2u X[1..i] th=C3=A0nh x=C3=A2u</div><div=
+ id=3D"yui_3_16_0_1_1490543148621_5189">F =3D ''. V=E1=BA=ADy: L[i, 0] =3D =
+i</div><div id=3D"yui_3_16_0_1_1490543148621_5190"><br id=3D"yui_3_16_0_1_1=
+490543148621_5191"></div><div id=3D"yui_3_16_0_1_1490543148621_5192">C=C3=
+=A1c tr=C6=B0=E1=BB=9Dng h=E1=BB=A3p kh=C3=A1c:</div><div id=3D"yui_3_16_0_=
+1_1490543148621_5193">* X[i] =3D F[j]</div><div id=3D"yui_3_16_0_1_14905431=
+48621_5194">L[i, j] =3D L[i-1, j-1]</div><div id=3D"yui_3_16_0_1_1490543148=
+621_5195">* X[i] &lt;&gt; F[j]</div><div id=3D"yui_3_16_0_1_1490543148621_5=
+196">C=C3=B3 th=E1=BB=83 ch=E1=BB=8Dn m=E1=BB=99t trong 3 c=C3=A1ch bi=E1=
+=BA=BFn =C4=91=E1=BB=95i x=C3=A2u:</div><div id=3D"yui_3_16_0_1_14905431486=
+21_5197">+ C=C3=A1ch 1: Xo=C3=A1 k=C3=BD t=E1=BB=B1 X[i]</div><div id=3D"yu=
+i_3_16_0_1_1490543148621_5198">L[i, j] =3D L[i-1, j] + 1</div><div id=3D"yu=
+i_3_16_0_1_1490543148621_5199">+ C=C3=A1ch 2: Thay th=E1=BA=BF X[i] b=E1=BB=
+=9Fi F[j]</div><div id=3D"yui_3_16_0_1_1490543148621_5200">L[i, j] =3D L[i-=
+1, j-1] + 1</div><div id=3D"yui_3_16_0_1_1490543148621_5201">+ C=C3=A1ch 3:=
+ Ch=C3=A8n F[j] v=C3=A0o sau X[i]</div><div id=3D"yui_3_16_0_1_149054314862=
+1_5202">L[i, j] =3D L[i, j-1] + 1</div><div id=3D"yui_3_16_0_1_149054314862=
+1_5203">Nh=C6=B0 v=E1=BA=ADy: V=E1=BB=9Bi tr=C6=B0=E1=BB=9Dng h=E1=BB=A3p X=
+[i] &lt;&gt; F[j] th=C3=AC:</div><div id=3D"yui_3_16_0_1_1490543148621_5204=
+">L[i, j] =3D min(L[i-1, j] + 1,</div><div id=3D"yui_3_16_0_1_1490543148621=
+_5205">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; L[i-1, j-1] + 1,</d=
+iv><div id=3D"yui_3_16_0_1_1490543148621_5206">&nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; L[i, j-1] + 1)</div><div id=3D"yui_3_16_0_1_1490543148=
+621_5207"><br id=3D"yui_3_16_0_1_1490543148621_5208"></div><div id=3D"yui_3=
+_16_0_1_1490543148621_5209">X =3D 'tat ca'</div><div dir=3D"ltr" id=3D"yui_=
+3_16_0_1_1490543148621_5210">F =3D 'tat ca'</div></div></body></html>
+------=_Part_4264139_711634210.1490543253376--
+
+------=_Part_4264140_1640988100.1490543253378
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="DATARECO.pas"
+Content-ID: <a5ed3ec6-4aba-0931-6d9d-09fd96de8a23@yahoo.com>
+
+Y29uc3QNCiAgICAgICAgZmlucCA9ICdEQVRBUkVDTy5JTlAnOw0KICAgICAgICBmb3V0ID0gJ0RB
+VEFSRUNPLk9VVCc7DQogICAgICAgIE1BWE4gPSAxMDAwOw0KdmFyDQogICAgICAgIGYxLGYyOnRl
+eHQ7DQogICAgICAgIFgsIEY6IHN0cmluZzsNCiAgICAgICAgZGVtMSwgZGVtMjogYXJyYXkgWzEu
+Lk1BWE5dIG9mIGxvbmdpbnQ7DQogICAgICAgIG0sIG46IGxvbmdpbnQ7DQogICAgICAgIEw6YXJy
+YXlbMC4uTUFYTiwwLi5NQVhOXSBvZiBsb25naW50Ow0KDQpwcm9jZWR1cmUgTmhhcDsNCnZhcg0K
+ICAgICAgICBpOmxvbmdpbnQ7DQogICAgICAgIGNoOiBjaGFyOw0KYmVnaW4NCiAgICAgICAgYXNz
+aWduKGYxLGZpbnApOw0KICAgICAgICByZXNldChmMSk7DQogICAgICAgIFg6PSAnJzsNCiAgICAg
+ICAgRjo9ICcnOw0KICAgICAgICByZWFkbG4oZjEsIG0sIG4pOw0KICAgICAgICBmb3IgaTo9IDEg
+dG8gbSBkbw0KICAgICAgICBiZWdpbg0KICAgICAgICAgICAgICAgIHJlYWRsbihmMSwgY2gsIGRl
+bTFbaV0pOw0KICAgICAgICAgICAgICAgIFg6PSBYICsgY2g7DQogICAgICAgIGVuZDsNCiAgICAg
+ICAgZm9yIGk6PSAxIHRvIG4gZG8NCiAgICAgICAgYmVnaW4NCiAgICAgICAgICAgICAgICByZWFk
+bG4oZjEsIGNoLCBkZW0yW2ldKTsNCiAgICAgICAgICAgICAgICBGOj0gRiArIGNoOw0KICAgICAg
+ICBlbmQ7DQoNCiAgICAgICAgY2xvc2UoZjEpOw0KZW5kOw0KDQpmdW5jdGlvbiBtYXgoYSwgYjog
+bG9uZ2ludCk6IGxvbmdpbnQ7DQpiZWdpbg0KICAgICAgICBpZiBhID4gYiB0aGVuIGV4aXQoYSkN
+CiAgICAgICAgICAgICAgICBlbHNlIGV4aXQoYik7DQplbmQ7DQoNCg0KZnVuY3Rpb24gbWluKGEs
+IGI6IGxvbmdpbnQpOiBsb25naW50Ow0KYmVnaW4NCiAgICAgICAgaWYgYSA8IGIgdGhlbiBleGl0
+KGEpDQogICAgICAgICAgICAgICAgZWxzZSBleGl0KGIpOw0KZW5kOw0KDQpwcm9jZWR1cmUgUUhE
+Ow0KdmFyIGksIGo6IGludGVnZXI7DQpiZWdpbg0KICAgICAgICBmb3IgaTo9IDAgdG8gbSBkbyBM
+W2ksIDBdOj0gMDsNCiAgICAgICAgZm9yIGo6PSAwIHRvIG4gZG8gTFswLCBqXTo9IDA7DQoNCiAg
+ICAgICAgZm9yIGk6PSAxIHRvIG0gZG8NCiAgICAgICAgICAgICAgICBmb3Igajo9IDEgdG8gbiBk
+bw0KICAgICAgICAgICAgICAgIGJlZ2luDQogICAgICAgICAgICAgICAgICAgICAgICBpZiBYW2ld
+ID0gRltqXSB0aGVuDQogICAgICAgICAgICAgICAgICAgICAgICAgICBMW2ksIGpdOj0gTFtpLTEs
+IGotMV0gKyBtaW4oZGVtMVtpXSwgZGVtMltqXSkNCiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgZWxzZSAvLyBYW2ldIDw+IEZbal0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICBMW2ksIGpdOj0gbWF4KExbaS0xLCBqXSwNCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIExbaSwgai0xXSk7DQogICAgICAgICAg
+ICAgICAgZW5kOw0KZW5kOw0KDQoNCnByb2NlZHVyZSBUcnV5VmV0KGksIGo6IGxvbmdpbnQpOw0K
+dmFyIGs6IGxvbmdpbnQ7DQpiZWdpbg0KICAgICAgICBpZiAoaSA9IDApIG9yIChqID0gMCkgdGhl
+biBleGl0Ow0KICAgICAgICBpZiBYW2ldID0gRltqXSB0aGVuDQogICAgICAgIGJlZ2luDQogICAg
+ICAgICAgICAgICAgVHJ1eVZldChpLTEsIGotMSk7DQogICAgICAgICAgICAgICAgd3JpdGUoZjIs
+IFhbaV0sIG1pbihkZW0xW2ldLCBkZW0yW2pdKSk7DQogICAgICAgIGVuZA0KICAgICAgICAgICAg
+ICAgZWxzZSAvLyBYW2ldIDw+IEZbal0NCiAgICAgICAgICAgICAgICAgICBpZiBMW2ksIGpdID0g
+TFtpLTEsIGpdIHRoZW4NCiAgICAgICAgICAgICAgICAgICAgICAgIFRydXlWZXQoaS0xLCBqKQ0K
+ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSBUcnV5VmV0KGksIGotMSk7DQplbmQ7DQoNCnBy
+b2NlZHVyZSBJbktROw0KYmVnaW4NCiAgICAgICAgYXNzaWduKGYyLCBmb3V0KTsgcmV3cml0ZShm
+Mik7DQogICAgICAgIHdyaXRlbG4oZjIsIExbbSwgbl0pOw0KICAgICAgICAvL3dyaXRlbG4oZjIs
+IDMwKTsgLy8gVGluaCBodW9uZyBraG9uZyBiaWV0IGNhY2ggZ2lhaSBiYWkgbmF5DQogICAgICAg
+IC8vVHJ1eVZldChtLCBuKTsgLy8gRHVhIHJhIGNhY2ggdGltIHhhdSBjb24gY2h1bmcgZGFpIG5o
+YXQNCiAgICAgICAgY2xvc2UoZjIpOw0KZW5kOw0KDQpCRUdJTg0KICAgICAgICBOaGFwOw0KICAg
+ICAgICBRSEQ7DQogICAgICAgIEluS1E7DQpFTkQuDQo=
+
+------=_Part_4264140_1640988100.1490543253378--
